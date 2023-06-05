@@ -17,7 +17,7 @@ const techs = ["Python", "Django", "Django Rest Framework", "Typescript", "React
 const ProcessControl = () => {
   return (
     <ProjectPage
-      title="Fire Hydrant Sizing"
+      title="Process Control"
       subtitle="Django / DRF / React JS / Bootstrap"
       CarouselData={CarouselData}
       techs={techs}
