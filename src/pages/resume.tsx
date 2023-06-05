@@ -33,9 +33,9 @@ const Resume = () => {
               <a href="https://github.com/Jonasbm" target="_blank" rel="noreferrer">
                 <FaGithub size={20} style={{ marginRight: "1rem" }} />
               </a>
-              <button onClick={handlePrint}>
+              <a href="/assets/jonas_resume.pdf" target="_blank" rel="noreferrer">
                 <FaPrint size={20} style={{ marginRight: "1rem" }} />
-              </button>
+              </a>
             </div>
           </div>
           <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
@@ -122,9 +122,9 @@ const Resume = () => {
                 In 2020 I started taking freelance projects, improving my developing skills and building experience as a
                 Full Stack Web Developer.
               </li>
-              <li>In 2020 contracted to develop a calendar solution to track events like notices and intimations.</li>
-              <li>In 2021 contracted to develop a MVP, showing a solution to a process control webapp.</li>
-              <li>In 2021 contracted by my previous employer to develop a fire hydrante sizing tool.</li>
+              <li>2020: Contracted to develop a calendar solution to track events like notices and intimations.</li>
+              <li>2021: Contracted to develop a MVP, showing a solution to a process control webapp.</li>
+              <li>2021: Contracted by my previous employer to develop a fire hydrante sizing tool.</li>
             </ul>
           </div>
 
@@ -136,7 +136,7 @@ const Resume = () => {
               <span className="font-bold">Trichês Engenharia</span>
               <span className="px-2">|</span>Florianópolis, SC - Brazil
             </p>
-            <p className="py-1 italic">Civil Engineer / IT manager / Software Developer / Associate (2012 – 2022)</p>
+            <p className="py-1 italic">Civil Engineer / IT manager / Software Developer / Associate (2002 – 2022)</p>
             <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
               <li>Design fire prevention and hidraulic plans.</li>
               <li>Create designs using AutoCad and Revit.</li>
