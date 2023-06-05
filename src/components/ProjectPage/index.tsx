@@ -65,10 +65,9 @@ const ProjectPage: React.FC<React.PropsWithChildren<ProjectPageProps>> = ({
 
   return (
     <div className="w-full">
-      <div className="w-screen h-[50vh] relative" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-        <div className="absolute top-0 left-0 w-full h-[50vh]  z-10" />
-
-        <div className="absolute z-1 w-full h-[50vh] pt-20 flex justify-center">
+      <div className="h-20" />
+      <div className="w-full h-[50vh] flex justify-center" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+        <div className="">
           {CarouselData.map((slide, index) => {
             return (
               <Image
@@ -84,26 +83,29 @@ const ProjectPage: React.FC<React.PropsWithChildren<ProjectPageProps>> = ({
             );
           })}
         </div>
-        <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2">
+        <div
+          className="absolute z-20 top-[30vh] bg-white opacity-30 lg:transform lg:translate-x-[-460px] left-5 lg:left-auto"
+          onClick={prevSlide}
+        >
+          <AiOutlineLeft className=" text-3xl text-black cursor-pointer" />
+        </div>
+        <div
+          className="absolute z-20 top-[30vh] bg-white opacity-30 lg:transform lg:translate-x-[460px] right-5 lg:right-auto"
+          onClick={nextSlide}
+        >
+          <AiOutlineRight className=" text-3xl text-black cursor-pointer" />
+        </div>
+      </div>
+      <div className="max-w-[1240px] mx-auto p-2 grid lg:grid-cols-5 gap-8 py-8">
+        <div className="col-span-5 p-2">
           <h2 className="py-2 text-shadow">{title}</h2>
           <h3 className="text-shadow">{subtitle}</h3>
         </div>
-        <AiOutlineLeft
-          onClick={prevSlide}
-          className="absolute z-20 left-20 text-3xl inset-y-1/2 text-black cursor-pointer"
-        />
-        <AiOutlineRight
-          onClick={nextSlide}
-          className="absolute z-20 right-20 text-3xl inset-y-1/2 text-black cursor-pointer"
-        />
-      </div>
-
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
-        <div className="col-span-4">{children}</div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
-          <div className="p-2">
+        <div className="col-span-5 lg:col-span-4 p-2">{children}</div>
+        <div className="col-span-5 lg:col-span-1 py-4">
+          <div className="p-2 shadow-xl shadow-gray-400 rounded-xl">
             <p className="text-center font-bold pb-2">Technologies</p>
-            <div className="grid grid-cols-3 md:grid-cols-1 ">
+            <div className="grid grid-cols-3 lg:grid-cols-1 ">
               {techs.map((tech, index) => {
                 return <TechnologyItem key={index} label={tech} />;
               })}
