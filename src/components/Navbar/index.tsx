@@ -70,11 +70,11 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`fixed w-full h-20 z-[100] bg-[#ecf0f3] ${shadow && " shadow-xl ease-in-out duration-300"}`}>
+    <div className={`fixed w-full h-16 z-[100] bg-[#ecf0f3] ${shadow && " shadow-xl ease-in-out duration-300"}`}>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link legacyBehavior href="/">
           <a>
-            <Image src={NavLogo} alt="/" height="80" className="cursor-pointer" />
+            <Image src={NavLogo} alt="/" height="60" className="cursor-pointer" />
           </a>
         </Link>
         <div>
