@@ -90,23 +90,47 @@ const Resume = () => {
           {/* Experience */}
           <div className="py-6">
             <p className="italic">
+              <span className="font-bold italic">Reckon Digital</span>
+              <span className="px-2">|</span>London, UK
+            </p>
+            <p className="py-1 italic">Software engineer (2023 - Current)</p>
+            <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+              <li>
+                Python 2 to 3 porting of an online multiplayer game with more than 20,000 concurrent players daily and over 4 millions lines of code.
+              </li>
+              <li>
+                Troubleshot issues in the CI flow in Teamcity, using Kotlin DSL.
+              </li>
+              <li>
+                Develop and fix Windows and MacOS applications built with Python using pyinstaller, py2exe and py2app.    
+              </li>
+              <li>
+                Troubleshot Flask applications.
+              </li>
+            </ul>
+          </div>
+
+          {/* Experience */}
+          <div className="py-6">
+            <p className="italic">
               <span className="font-bold italic">PriceSurvey</span>
               <span className="px-2">|</span>Belo Horizonte, MG - Brazil
             </p>
-            <p className="py-1 italic">Full Stack Web Developer (2022 - Current)</p>
+            <p className="py-1 italic">Full Stack Web Developer (2022 - 2023)</p>
             <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
               <li>
-                Develop internal solutions and tools, taking into account the needs of the differente departaments.
-              </li>
-              <li>Troubleshoot issues and concerns and design changes as needed.</li>
-              <li>
-                Ensured comprehensive responsive UI layouts. With understanding of HTML, CSS, React and Typescript.
+                Develop internal solutions and tools, taking into account the needs of the different departaments.
               </li>
               <li>
-                Ensured performatic and well writen backend RestAPI. With understanding of SQL, Django, DRF and Python.
+                Ensured comprehensive responsive UI layouts. With an understanding of HTML, CSS, React, and Typescript.
               </li>
-              <li>Create automated tests for the backend.</li>
-              <li>Adapt the backend RestAPI with good pratices for Django and DRF.</li>
+              <li>
+                Ensured performative and well-written backend RestAPI. With an understanding of SQL, Django, DRF, and Python.
+              </li>
+              <li>
+                Create automated tests.
+              </li>
+              <li>Adapt the backend RestAPI with good practices for Django and DRF.</li>
             </ul>
           </div>
 
