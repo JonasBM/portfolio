@@ -21,7 +21,7 @@ const EventTracker = () => {
       techs={techs}
     >
       <p>Project Overview</p>
-      <h2>October of 2020</h2>
+      <h2>December of 2019</h2>
 
       <Paragraph>
         A branch of the Itajaí City Hall, located in Brazil, had organizational and control issues with their notices

@@ -15,12 +15,6 @@ const Projects = () => {
       <div className="max-w-[1240px] mx-auto px-2">
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Inventory Control - Showcase"
-            backgroundImg="/assets/projects/inventory-control/inventory_1.png"
-            projectUrl="/inventory-control"
-            tech="Django | React JS"
-          />
-          <ProjectItem
             title="Fire Hydrant Sizing"
             backgroundImg="/assets/projects/calculo/calculo_1.png"
             projectUrl="/calculo"
@@ -36,6 +30,12 @@ const Projects = () => {
             title="Notice and Intimations Calendar"
             backgroundImg="/assets/projects/event-tracker/event_1.png"
             projectUrl="/event-tracker"
+            tech="Django | React JS"
+          />
+          <ProjectItem
+            title="Inventory Control - Showcase"
+            backgroundImg="/assets/projects/inventory-control/inventory_1.png"
+            projectUrl="/inventory-control"
             tech="Django | React JS"
           />
 

@@ -17,7 +17,7 @@ const Resume = () => {
           <title>Jonas | Resume</title>
           <meta
             name="description"
-            content="I'm a FullStack web developer specializing in building exceptional digital experiences."
+            content="I'm a Full Stack Developer specializing in building exceptional digital experiences."
           />
           <link rel="icon" href="/fav.png" />
         </Head>
@@ -27,10 +27,10 @@ const Resume = () => {
           <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
             <h2 className="text-center">Jonas Burigo</h2>
             <div className="flex">
-              <a href="https://www.linkedin.com/in/jonas-burigo-047aa8129/" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/jonas-burigo/" target="_blank" rel="noreferrer">
                 <FaLinkedinIn size={20} style={{ marginRight: "1rem" }} />
               </a>
-              <a href="https://github.com/Jonasbm" target="_blank" rel="noreferrer">
+              <a href="https://github.com/Jonasbm/" target="_blank" rel="noreferrer">
                 <FaGithub size={20} style={{ marginRight: "1rem" }} />
               </a>
               <a href="/assets/jonas_resume.pdf" target="_blank" rel="noreferrer">
@@ -50,12 +50,18 @@ const Resume = () => {
               <p>Complex Problem Solving</p>
             </div>
           </div>
-          <p>
-            Analytical, innovative, and motivated web development professional with experience, and organizational
-            effectiveness in fast-paced and challenging environments. Adept at developing strategies and driving
-            streamlined operations. Diverse analytical skills, team collaboration, and relationship building. Consummate
-            professional with solid interpersonal abilities and complex problem-solving skills. Effective and proven
-            track record of critical thinking, idea generation, and optimizing efficiencies.
+          <p className="indent-5">
+            With more than four years of hands-on experience in web development, I specialize in Django and React,
+            demonstrating deep expertise and a strong ability to adapt to various project demands.
+          </p>
+          <p className="indent-5">
+            My skills are further augmented by a solid proficiency in DevOps practices, underscored by an AWS
+            certification, which equips me with the necessary tools to efficiently manage and scale projects.
+          </p>
+          <p className="indent-5">
+            I am particularly proud of my track record in leading numerous projects from inception to deployment,
+            showcasing my commitment to excellence, strong project management skills, and unwavering dedication to
+            delivering high-quality results under tight deadlines.
           </p>
 
           {/* Skills */}
@@ -63,7 +69,7 @@ const Resume = () => {
             <h5 className="text-center underline text-[18px] py-2">Skills</h5>
             <p className="py-2">
               <span className="font-bold">Technical Skills</span>
-              <span className="px-2">|</span>Full Stack Web Developer
+              <span className="px-2">|</span>Full Stack Developer
               <span className="px-2">|</span>HTML
               <span className="px-2">|</span>CSS
               <span className="px-2">|</span>Javascript
@@ -96,16 +102,19 @@ const Resume = () => {
             <p className="py-1 italic">Software engineer (2023 - Current)</p>
             <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
               <li>
-                Python 2 to 3 porting of an online multiplayer game with more than 20,000 concurrent players daily and over 4 millions lines of code.
+                Assisted in transitioning a high-traffic online game from Python 2 to Python 3, updating 4 million lines of code.
               </li>
               <li>
-                Troubleshot issues in the CI flow in Teamcity, using Kotlin DSL.
+                Improved Continuous Integration with TeamCity and Kotlin DSL.
               </li>
               <li>
-                Develop and fix Windows and MacOS applications built with Python using pyinstaller, py2exe and py2app.    
+                Developed and troubleshot desktop apps for Windows and MacOS.
               </li>
               <li>
-                Troubleshot Flask applications.
+                Contributed to web app development with Flask, enhancing functionality and user experience.
+              </li>
+              <li>
+                Worked on Django-based applications, optimizing for robustness and scalability
               </li>
             </ul>
           </div>
@@ -116,63 +125,66 @@ const Resume = () => {
               <span className="font-bold italic">PriceSurvey</span>
               <span className="px-2">|</span>Belo Horizonte, MG - Brazil
             </p>
-            <p className="py-1 italic">Full Stack Web Developer (2022 - 2023)</p>
+            <p className="py-1 italic">Full Stack Developer (2022 - 2023)</p>
             <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
               <li>
-                Develop internal solutions and tools, taking into account the needs of the different departaments.
+                Orchestrated the development of a high-performance application designed to enhance quality assurance for surveys, using React and Django.
               </li>
               <li>
-                Ensured comprehensive responsive UI layouts. With an understanding of HTML, CSS, React, and Typescript.
+                Led the strategic redesign of the market research application, implementing an efficient queued system. This allowed for handling a larger volume of surveys and provided improved control over research processes.
               </li>
               <li>
-                Ensured performative and well-written backend RestAPI. With an understanding of SQL, Django, DRF, and Python.
+                Ensured responsive UI layouts with HTML, CSS, React, and TypeScript.
               </li>
               <li>
-                Create automated tests.
+                Responsible for the creation and maintenance of a high-performance backend RestAPI, demonstrating proficiency in SQL, Django, Django REST framework (DRF), Python, and AWS.
               </li>
-              <li>Adapt the backend RestAPI with good practices for Django and DRF.</li>
+              <li>
+                Introduced automated testing, raising test coverage to nearly 90%.
+              </li>
+              <li>
+                Spearheaded the database migration to PostgreSQL, boosting efficiency and scalability with GeoDjango support and enhanced queries.
+              </li>
             </ul>
           </div>
 
           {/* Experience */}
-          <div className="py-6" style={{ pageBreakBefore: "always" }}>
-            <p className="italic">
-              <span className="font-bold italic">Freelance</span>
-              <span className="px-2">|</span>Brazil
-            </p>
-            <p className="py-1 italic">Full Stack Web Developer (2020 - Current)</p>
-            <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-              <li>
-                In 2020 I started taking freelance projects, improving my developing skills and building experience as a
-                Full Stack Web Developer.
-              </li>
-              <li>2020: Contracted to develop a calendar solution to track events like notices and intimations.</li>
-              <li>2021: Contracted to develop a MVP, showing a solution to a process control webapp.</li>
-              <li>2021: Contracted by my previous employer to develop a fire hydrante sizing tool.</li>
-            </ul>
-          </div>
-
-          <h5 className="text-center underline text-[18px] py-4">Other Professional Experience</h5>
-
-          {/* Extra Experience */}
           <div className="py-6">
             <p className="italic">
               <span className="font-bold">Trichês Engenharia</span>
               <span className="px-2">|</span>Florianópolis, SC - Brazil
             </p>
-            <p className="py-1 italic">Civil Engineer / IT manager / Software Developer / Associate (2002 – 2022)</p>
+            <p className="py-1 italic">Lead IT manager / Software engineer (2002 – 2021)</p>
             <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-              <li>Design fire prevention and hidraulic plans.</li>
-              <li>Create designs using AutoCad and Revit.</li>
-              <li>Strategic implementation of new technologies.</li>
-              <li>Manage the IT infrastructure (software and hardware).</li>
-              <li>Handled network installation in the office.</li>
               <li>
-                Server Manager, starting with a Windows Server OS and later migrating to a Linux-based one, including
-                Active Directory, web server, and file server.
+                Managed the IT infrastructure, encompassing both software and hardware components, ensuring optimal performance and reliability.
               </li>
-              <li>Provided IT support.</li>
-              <li>Perform repair technician duties.</li>
+              <li>
+                Spearheaded strategic tech implementation, enhancing operational efficiency.
+              </li>
+              <li>
+                Pioneered the development of innovative tooling for calculations and management, utilizing a tech stack that included MySQL, PHP, JavaScript, and jQuery, thereby improving operational workflows and data handling capabilities
+              </li>
+              <li>
+                Transitioned from Windows to Linux servers, handling Active Directory, web server, and file server setups on Samba and Nginx.
+              </li>
+            </ul>
+          </div>
+
+          {/* Extra Experience */}
+          <h5 className="text-center underline text-[18px] py-2">Freelance</h5>
+
+          <div className="py-6" style={{ pageBreakBefore: "always" }}>
+            <p className="py-1 italic">Full Stack Developer (2019 - Current)</p>
+            <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+              <p>
+                In 2019 I started taking freelance projects, improving my developing skills and building experience as a
+                Full Stack Developer.
+              </p>
+              <li>2019: Contracted to develop a calendar solution to track events like notices and intimations.</li>
+              <li>2020: Contracted to develop a MVP, showing a solution to a process control webapp.</li>
+              <li>2021: Contracted by my previous employer to develop a fire hydrante sizing tool.</li>
+              <li>2023: Add a new module for gas sizing in the project for fire hidrant sizing.</li>
             </ul>
           </div>
 

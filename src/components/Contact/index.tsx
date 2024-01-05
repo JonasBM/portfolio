@@ -32,7 +32,7 @@ const Contact = () => {
                 <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
                   <LinkedInAnchor />
                   <GitHubAnchor />
-                  <BlogAnchor />
+                  {/* <BlogAnchor /> */}
                   <ResumeAnchor />
                 </div>
               </div>

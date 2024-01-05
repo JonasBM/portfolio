@@ -10,8 +10,8 @@ const About = () => {
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="py-2 text-gray-600">
-            I&apos;m a Full Stack web developer with preference for backend. I work with Python/Django/DRF and
-            Typescript/React as a mid-level programmer. I enjoy learning and experimenting with new technologies
+            I&apos;m a Full Stack Developer with preference for backend. I work with Python/Django/DRF and
+            Typescript/React. I enjoy learning and experimenting with new technologies
             (already experimented with C# (WPF desktop app), Java (Android app), PHP and a lot more).
           </p>
 

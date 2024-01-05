@@ -30,7 +30,7 @@ const Calculo = () => {
       techs={techs}
     >
       <p>Project Overview</p>
-      <h2>April of 2022</h2>
+      <h2>November of 2021</h2>
 
       <Paragraph>This project was created for my previous employer. It is a fire hydrant sizing app.</Paragraph>
       <Paragraph>
